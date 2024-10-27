@@ -24,7 +24,7 @@ const SignIn = () => {
   
 
   return (
-    <div className="bg-[#676179] h-screen w-full flex items-center justify-center overflow-hidden">
+    <div className="bg-[#676179] relative h-screen w-full flex items-center justify-center overflow-hidden">
       <div className="flex relative items-center justify-around gap-3 bg-[#2B2738] w-[60%] h-[65%] rounded-[20px] p-3">
         <div className="relative w-full h-full rounded-[17px] hidden lg:block">
         <p className={`${index === 1 ? 'text-black' : 'text-white'} absolute font-Montserrat text-[30px] m-2 bottom-0 left-[35%]`}
